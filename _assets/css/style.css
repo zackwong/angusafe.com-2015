@@ -481,26 +481,31 @@ table {
 	.contact_square {
 	width:29%
 }
-}@media only screen and (min-width:781px) and (max-width:900px) {
+}
+@media only screen and (min-width:781px) and (max-width:900px) {
 	.contact_square {
 	width:46%
 }
-}@media only screen and (min-width:701px) and (max-width:780px) {
+}
+@media only screen and (min-width:701px) and (max-width:780px) {
 	.contact_square {
 	width:45%
 }
-}@media only screen and (min-width:625px) and (max-width:700px) {
+}
+@media only screen and (min-width:625px) and (max-width:700px) {
 	.contact_square {
 	width:44%
 }
-}@media only screen and (max-width:624px) {
+}
+@media only screen and (max-width:624px) {
 	.contact_square {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	width:80%
 }
-}#finder-filter {
+}
+#finder-filter {
 	padding:30px 15px;
 	font-size:14px;
 	text-align:center
