@@ -580,11 +580,11 @@ table {
 	float:left;
 	margin:0 3px 0 0
 }
-.ficon:hover,.ficon.active {
+.ficon:hover .ficon.active {
 	background-position:-15px -110px
 }
 .icon-blank {
-	background:url(/images/pages/icon-blank.png) no-repeat -15px -15px;
+	background:url(/images/assets/icon-blank.png) no-repeat -15px -15px;
 	text-indent:0;
 	text-align:center;
 	line-height:79px;
