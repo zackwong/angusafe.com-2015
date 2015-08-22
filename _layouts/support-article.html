@@ -1,0 +1,13 @@
+---
+layout: support
+---
+<div class="content center_content" id="newsinfo">
+  <h2 class="center">{{ page.title }}</h2>
+  <em>
+    分类：<a href="{{ site.url }}/knowledge/">产品知识</a> |
+    发表日期：{{ page.date | date:'%Y-%m-%d' }}
+  </em>
+</div>
+<div class="content center_content" id="newscontent">
+  {{ content }}
+</div>

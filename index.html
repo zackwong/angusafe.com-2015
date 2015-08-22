@@ -1,0 +1,46 @@
+---
+layout: default
+full_title: 安谷保险柜官网-保险柜
+---
+<article id="billboard">
+  <div class="bb active">
+    <div class="link"><a href="{{ site.url }}/products/tj-k40.html">开箱机K40</a></div>
+    <div class="title"><img src="{{ site.url }}/images/home/tj-k40-title.png"></div>
+    <div class="subtitle"><img src="{{ site.url }}/images/home/1.png"></div>
+    <div class="image"><img src="{{ site.url }}/images/home/tj-k40.jpg"></div>
+  </div>
+  <div class="bb">
+    <div class="link"><a href="{{ site.url }}/products/tj-tda-zb3l.html">套袋收缩机TJ-TDA-ZB3L</a></div>
+    <div class="title"><img src="{{ site.url }}/images/home/tj-tda-zb3l-title.png"></div>
+    <div class="subtitle"><img src="{{ site.url }}/images/home/1.png"></div>
+    <div class="image"><img src="{{ site.url }}/images/home/tj-tda-zb3l.jpg"></div>
+  </div>
+  <div class="bb">
+    <div class="link"><a href="{{ site.url }}/products/tj-102a.html">TJ-102A无人化打包机</a></div>
+    <div class="title"><img src="{{ site.url }}/images/home/tj-102a-title.png"></div>
+    <div class="subtitle"><img src="{{ site.url }}/images/home/1.png"></div>
+    <div class="image"><img src="{{ site.url }}/images/home/tj-102a.jpg"></div>
+  </div>
+  <div class="bb">
+    <div class="link"><a href="{{ site.url }}/products/tj-fj-p1e.html">角边自动封箱机TJ-FJ-P1E</a></div>
+    <div class="title"><img src="{{ site.url }}/images/home/tj-fj-p1e-title.png"></div>
+    <div class="subtitle"><img src="{{ site.url }}/images/home/1.png"></div>
+    <div class="image"><img src="{{ site.url }}/images/home/tj-fj-p1e.jpg"></div>
+  </div>
+</article>
+<div id="promo">
+  <ul>
+    <li><a class="promo_01" href="{{ site.url }}/support/" title="公司实力"></a></li>
+    <li><a class="promo_02" href="{{ site.url }}/products/" title="产品全家福"></a></li>
+    <li><a class="promo_03" href="http://mall.jd.com/index-157092.html" target="_blank" title="猛犸商城"></a></li>
+    <li><a class="promo_04" href="{{ site.url }}/support/" title="服务支持"></a></li>
+  </ul>
+</div>
+<div class="wide sliderkit newslider-minimal" id="newsslider">
+  <div class="left"><a href="{{ site.url }}/news/">新闻中心</a></div>
+  <div class="sliderkit-panels">
+    {% for post in site.categories["news"] %}
+    <div class="sliderkit-panel">〔{{ post.type }}〕<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span class="date">{{ post.date | date:"%Y年%m月%d日" }}</span></div>
+    {% endfor %}
+  </div>
+</div>

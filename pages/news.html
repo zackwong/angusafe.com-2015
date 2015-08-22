@@ -1,0 +1,17 @@
+---
+layout: pages
+body_style: page
+category: news
+permalink: /news/
+title: 新闻中心
+keywords: 打包机
+description: 在这里我们会为您展示更多最新的关于天键包装的企业新闻以及行业新闻，让您更快速直接的了解我司的最新状况。
+---
+<article>
+  <div class="center_content" id="newslist">
+    <ul>{% for post in site.categories["news"] %}
+      <li><em>{{ post.date | date:'%Y-%m-%d' }}</em><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+    </ul>
+  </div>
+  <div class="block h50px"></div>
+</article>

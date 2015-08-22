@@ -1,0 +1,48 @@
+---
+layout: default
+body_style: page
+category: products
+permalink: /products/
+title: 产品库
+keywords: 认识天键
+description: 天键包装为您提供完整快捷专业的封箱机、打包机、收缩机、缠绕机等自动化包装设备选购服务。
+---
+<div id="finder-filter">
+  <div class="panel">
+    <h3>使用范围：<span class="value">不限</span></h3>
+    <div class="content">
+      <a class="ficon icon-blank active" data-filter="" href="#" title="使用范围：不限">不限</a>
+      <a class="ficon icon-blank" data-filter=".家用柜" href="#" title="使用范围：家用柜">家用柜</a>
+      <a class="ficon icon-blank" data-filter=".商务柜" href="#" title="使用范围：商务柜">商务柜</a>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <h3>类别：<span class="value">不限</span></h3>
+    <div class="content">
+      <a class="ficon icon-blank active" data-filter="" href="#" title="类别：不限">不限</a>
+      <a class="ficon icon-blank" data-filter=".保险柜" href="#" title="类别：保险柜">保险柜</a>
+      <a class="ficon icon-blank" data-filter=".保管箱" href="#" title="类别：保管箱">保管箱</a>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <h3>高度：<span class="value">不限</span></h3>
+    <div class="content">
+      <a class="ficon icon-blank active" data-filter="" href="#" title="高度：不限">不限</a>
+      <a class="ficon icon-blank" data-filter=".cm15-30" href="#" title="高度：15-30cm">15-30cm</a>
+      <a class="ficon icon-blank" data-filter=".cm31-50" href="#" title="高度：31-50cm">31-50cm</a>
+      <a class="ficon icon-blank" data-filter=".cm51-80" href="#" title="高度：51-80cm">51-80cm</a>
+      <a class="ficon icon-blank" data-filter=".cm81-160" href="#" title="高度：81-160cm">81-160cm</a>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div id="finder">{% for post in site.categories["products"] %}
+  <div class="{{ post.filter }}">
+    <a href="{{ site.url }}{{ post.url }}">
+      <img src="{{ site.url }}/images/products/{{ post.image }}-small.png">
+      <div class="item_title">{{ post.title }}</div>
+    </a>
+  </div>{% endfor %}
+</div>

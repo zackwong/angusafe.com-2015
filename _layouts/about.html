@@ -1,0 +1,15 @@
+---
+layout: pages-type
+---
+<article>
+  <div class="page_nav">
+    <ul>
+      <li class="{% if page.type-en == 'about' %}active{% endif %}"><a href="{{ site.url }}/about/">公司简介</a></li>
+      <li class="{% if page.type-en == 'culture' %}active{% endif %}"><a href="{{ site.url }}/culture/">企业文化</a></li>
+      <li class="{% if page.type-en == 'honors' %}active{% endif %}"><a href="{{ site.url }}/honors/">企业荣誉</a></li>
+      <li class="dropdown"><a href="#"><span class="triangle down"></span></a></li>
+    </ul>
+  </div>
+  {{ content }}
+  <div class="block h50px"></div>
+</article>

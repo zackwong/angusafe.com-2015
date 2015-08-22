@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="fill">
+  <div class="mi-slider hide_if_mobile" id="showcase"></div>
+  <div class="product_header show_if_mobile">
+    <img src="{{ site.url }}/images/products/{{ page.image }}-small.png">
+    <div class="dropdownmenu" id="product_menu">
+      <a class="btn" href="{{ site.url }}{{ page.url }}">{{ page.type }}{{ page.name }}</a>
+      <a class="btn toggle">More</a>
+      <ul class="ddmenu">{% for post in site.categories["products"] reversed %}{% if post.type == page.type %}
+        <li class="{% if page.name == post.name %}current{% endif %}">
+          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+            <span class="img"><img src="{{ site.url }}/images/products/{{ post.image }}-small.png"></span>
+            <span class="text">{{ post.name }}</span>
+          </a>
+        </li>{% endif %}{% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="pages">
+    <div id="product_details">
+      <div class="cc">
+        <div class="title"><img alt="{{ page.title }}" src="{{ site.url }}/images/products/{{ page.image }}.png" title="{{ page.title }}"></div>
+        <div class="image"><img alt="{{ page.title }}" src="{{ site.url }}/images/products/{{ page.image }}.jpg" title="{{ page.title }}"></div>
+      </div>
+      {{ content }}
+    </div>
+  </div>
+</article>

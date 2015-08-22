@@ -1,0 +1,14 @@
+---
+layout: pages-type
+---
+<article>
+  <div class="page_nav">
+    <ul>
+      <li class="{% if page.type-en == 'contact' %}active{% endif %}"><a href="{{ site.url }}/contact/">联系我们</a></li>
+      <li class="{% if page.type-en == 'map' %}active{% endif %}"><a href="{{ site.url }}/map/">网络地图</a></li>
+      <li class="dropdown"><a href="#"><span class="triangle down"></span></a></li>
+    </ul>
+  </div>
+  {{ content }}
+  <div class="block h50px"></div>
+</article>

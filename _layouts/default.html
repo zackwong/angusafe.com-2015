@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <title>{% if page.full_title %}{{ page.full_title }}{% else %}{% if page.title %}{{ page.title }}-{% endif %}{{ site.title }}{% endif %}</title>
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="applicable-device" content="pc,mobile">
+    <link rel="apple-touch-icon" href="{{ site.url }}/images/assets/angusafe-icon.jpg">
+    <meta name="apple-mobile-web-app-title" content="安谷保险柜">
+    {% javascript application %}
+    {% stylesheet application %}
+  </head>
+  <body class="{% if page.body_style %}{{ page.body_style }}{% else %}blank{% endif %}">
+    <header><a class="logo" title="安谷保险柜" href="{{ site.url }}">安谷保险柜</a></header>
+    <nav>
+      <ul class="nav">
+        <li><a href="{{ site.url }}" id="nav-catalog">产品库<span class="triangle-down"></span></a></li>
+        <li class="{% if page.category == 'about' %}active{% endif %}"><a href="{{ site.url }}/about/" id="nav-about">认识安谷</a></li>
+        <li class="{% if page.category == 'brand' %}active{% endif %}"><a href="{{ site.url }}/angusafe/" id="nav-brand">旗下品牌</a></li>
+        <li class="{% if page.category == 'news' %}active{% endif %}"><a href="{{ site.url }}/news/" id="nav-stores">新闻动态</a></li>
+        <li class="{% if page.category == 'case' %}active{% endif %}"><a href="{{ site.url }}/case/" id="nav-cases">客户案例</a></li>
+        <li class="{% if page.category == 'support' %}active{% endif %}"><a href="{{ site.url }}/manual/" id="nav-support">服务支持</a></li>
+        <li class="{% if page.category == 'contact' %}active{% endif %}"><a href="{{ site.url }}/contact/" id="nav-contact">联系我们</a></li>
+      </ul>
+      <div class="catalog" id="catalog">
+        <ul class="line">
+          <li>
+            <div class="figure"></div>
+            <ul class="model">
+              <li><a href="{{ site.url }}/products/tj-fj-50.html" title="封箱机TJ-FJ-50">封箱机TJ-FJ-50</a></li>
+              <li><a href="{{ site.url }}/products/tj-fj-50p.html" title="封箱机TJ-FJ-50P">封箱机TJ-FJ-50P</a></li>
+              <li><a href="{{ site.url }}/products/tj-fj-50s.html" title="封箱机TJ-FJ-50S">封箱机TJ-FJ-50S</a></li>
+              <li><a href="{{ site.url }}/products/tj-fj-46d.html" title="封箱机TJ-FJ-46D">封箱机TJ-FJ-46D</a></li>
+              <li><a href="{{ site.url }}/products/tj-fj-50e.html" title="封箱机TJ-FJ-50E">封箱机TJ-FJ-50E</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="figure"></div>
+            <ul class="model">
+              <li><a href="{{ site.url }}/products/tj-fj-3c.html" title="封箱机TJ-FJ-3C">封箱机TJ-FJ-3C</a></li>
+              <li><a href="{{ site.url }}/products/tj-fj-p1.html" title="封箱机TJ-FJ-P1">封箱机TJ-FJ-P1</a></li>
+              <li><a href="{{ site.url }}/products/tj-fj-p1e.html" title="封箱机TJ-FJ-P1E">封箱机TJ-FJ-P1E</a></li>
+              <li><a href="{{ site.url }}/products/tj-k40.html" title="自动开箱机TJ-K40">开箱机TJ-K40</a></li>
+              <li><a href="{{ site.url }}/products/tj-90.html" title="低台半自动打包机TJ-90">打包机TJ-90</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="figure"></div>
+            <ul class="model">
+              <li><a href="{{ site.url }}/products/tj-91.html" title="高台半自动打包机TJ-91">打包机TJ-91</a></li>
+              <li><a href="{{ site.url }}/products/tj-101a.html" title="全自动打包机TJ-101A">打包机TJ-101A</a></li>
+              <li><a href="{{ site.url }}/products/tj-101b.html" title="全自动打包机TJ-101B">打包机TJ-101B</a></li>
+              <li><a href="{{ site.url }}/products/tj-101c.html" title="全自动打包机TJ-101C">打包机TJ-101C</a></li>
+              <li><a href="{{ site.url }}/products/tj-101d.html" title="全自动打包机TJ-101D">打包机TJ-101D</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="figure"></div>
+            <ul class="model">
+              <li><a href="{{ site.url }}/products/tj-102a.html" title="无人化打包机TJ-102A">打包机TJ-102A</a></li>
+              <li><a href="{{ site.url }}/products/tj-102b.html" title="无人化打包机TJ-102B">打包机TJ-102B</a></li>
+              <li><a href="{{ site.url }}/products/tj-102c.html" title="无人化打包机TJ-102C">打包机TJ-102C</a></li>
+              <li><a href="{{ site.url }}/products/tj-102d.html" title="无人化打包机TJ-102D">打包机TJ-102D</a></li>
+              <li><a href="{{ site.url }}/products/tj-pvc-pof.html" title="收缩机TJ-PVC/POF">收缩机TJ-PVC/POF</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="figure"></div>
+            <ul class="model">
+              <li><a href="{{ site.url }}/products/tj-tda-zb3l.html" title="套袋收缩机TJ-TDA-ZB3L">收缩机TJ-TDA-ZB3L</a></li>
+              <li><a href="{{ site.url }}/products/tj-2000b-1525.html" title="预拉缠绕机TJ-2000B(1525)">预拉缠绕机TJ-2000B</a></li>
+              <li><a href="{{ site.url }}/products/tj-2000b-1825.html" title="压顶缠绕机TJ-2000B(1825)">压顶缠绕机TJ-2000B</a></li>
+              <li><a href="{{ site.url }}/products/tj-2000l.html" title="在线缠绕机TJ-2000L">在线缠绕机TJ-2000L</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="select_box">
+          <div class="figure"></div>
+          <div class="select"><select data-selected="{{ page.type }}" id="catalog_select"></select>0</div>
+          <div class="buttons"><a class="button" href="#" id="catalog_go">前往产品页</a></div>
+        </div>
+        <div class="catelog_bottom"><a href="{{ site.url }}/products/" title="查看更多产品">查看更多产品 &raquo;</a></div>
+      </div>
+    </nav>
+    {{ content }}
+    <footer>
+      <div class="left">
+        &copy; 2013-2015 佛山市安谷保险柜制造有限公司
+        <a class="hide_if_mobile" href="{{ site.url }}/Sitemap.xml">Sitemap</a>
+        <br>
+        <a class="beian" href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备14064091号-1</a>
+      </div>
+      <div class="right">
+        <a class="lang lang-cn" href="{{ site.url }}" title="中文">中文</a>
+        <a class="lang lang-en" href="http://www.angusafe.com" target="_blank" title="English">English</a>
+        <a class="lang lang-weixin social-media" href="/images/assets/weixin.jpg" title="安谷官方微信">安谷保险柜官方微信</a>
+        <a class="lang lang-jd" href="http://mall.jd.com/index-157092.html" target="_blank" title="安谷保险柜京东旗舰店">安谷保险柜京东旗舰店</a>
+        <a class="lang lang-alibaba" href="http://shop1411490458288.1688.com" target="_blank" title="安谷保险柜官方阿里巴巴">安谷保险柜官方阿里巴巴</a>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </footer>
+    <div id="floatTools" class="rides-cs" style="height:158px;">
+      <div class="floatL">
+        <a id="aFloatTools_Show" class="btnOpen" title="查看在线客服" style="top:0px;display:block" href="javascript:void(0);">展开</a>
+        <a id="aFloatTools_Hide" class="btnCtn" title="关闭在线客服" style="top:0px;display:none" href="javascript:void(0);">收缩</a>
+      </div>
+      <div id="divFloatToolsView" class="floatR" style="display: none;height:138px;width: 140px;">
+        <div class="cn">
+          <h4 class="titZx">在线客服<br><div align="center"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1837073710&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1837073710:41 &r=0.9988059234243309" alt="有问题请咨询我" title="有问题请咨询我"></a><br><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=490942530&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:490942530:41 &r=0.9988059234243309" alt="有问题请咨询我" title="有问题请咨询我"></a></div></h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
