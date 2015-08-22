@@ -39,11 +39,10 @@ description: 天键包装为您提供完整快捷专业的封箱机、打包机�
   </div>
 </div>
 <div id="finder">{% for post in site.categories["products"] %}
-  <div class="{{ post.filter }}">
+  <div class="item {{ post.filter }}">
     <a href="{{ site.url }}{{ post.url }}">
       <img src="{{ site.url }}/images/products/{{ post.image }}-small.png">
       <div class="item_title">{{ post.title }}</div>
     </a>
   </div>{% endfor %}
 </div>
-</article>

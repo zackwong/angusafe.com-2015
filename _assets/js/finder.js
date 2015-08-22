@@ -3,6 +3,9 @@ jQuery(function($) {
   $('#finder').isotope({
     itemSelector: '.item'
   });
+  setTimeout((function() {
+    $('#finder').isotope("reLayout");
+  }), 3000);
   update_filter = function() {
     var filter;
     filter = '';
