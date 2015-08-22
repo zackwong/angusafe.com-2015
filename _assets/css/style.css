@@ -580,7 +580,7 @@ table {
 	float:left;
 	margin:0 3px 0 0
 }
-.ficon:hover .ficon.active {
+.ficon:hover,.ficon.active {
 	background-position:-15px -110px
 }
 .icon-blank {
@@ -3012,14 +3012,6 @@ ul.nav li:last-child {
 }
 ul#honors li {
 	width:100%
-}
-#finder-filter .panel {
-	margin:0 0 12px 0;
-	padding:6px 7px;
-	display:block
-}
-#finder-filter .panel h3 {
-	margin-left:-8px
 }
 #pano {
 	height:400px
