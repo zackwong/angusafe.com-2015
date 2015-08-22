@@ -1,3 +1,4 @@
+//= require jquery-1.10.2.min.js
 //= require billboard.js
 //= require cases.js
 //= require contact.js
@@ -13,6 +14,5 @@
 //= require product.js
 //= require slider.js
 //= require top.js
-//= require template.js
 //= require map.js
 //= require zxkf.js
