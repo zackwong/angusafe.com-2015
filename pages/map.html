@@ -22,7 +22,7 @@ description: 天键包装网络地图显示天键包装总部地址是广东省�
     }
   </style>
   <script>
-    var map=new BMap.Map("map"),poi=new BMap.Point(113.284966, 22.752942);map.centerAndZoom(poi,18);map.enableScrollWheelZoom();
+    var map=new BMap.Map("map"),poi=new BMap.Point(113.124994, 22.848674);map.centerAndZoom(poi,18);map.enableScrollWheelZoom();
     var content='<div style="margin:0;line-height:20px;padding:2px;">地址：广东省佛山市顺德区勒流镇百丈工业区三路3号</div>',searchInfoWindow=new BMapLib.SearchInfoWindow(map,content,{title:"佛山市安谷保险柜制造有限公司",width:200,height:40,panel:"panel",enableAutoPan:!0,searchTypes:[BMAPLIB_TAB_SEARCH,BMAPLIB_TAB_TO_HERE,BMAPLIB_TAB_FROM_HERE]}),marker=new BMap.Marker(poi);marker.enableDragging();marker.addEventListener("click",function(a){searchInfoWindow.open(marker)});
       map.addOverlay(marker);searchInfoWindow.open(marker);
   </script>
