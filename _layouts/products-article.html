@@ -8,7 +8,7 @@ layout: default
     <div class="dropdownmenu" id="product_menu">
       <a class="btn" href="{{ site.url }}{{ page.url }}">{{ page.type }}{{ page.name }}</a>
       <a class="btn toggle">More</a>
-      <ul class="ddmenu">{% for post in site.categories["products"] reversed %}{% if post.type == page.type %}
+      <ul class="ddmenu">{% for post in site.categories["products"] %}{% if post.type == page.type %}
         <li class="{% if page.name == post.name %}current{% endif %}">
           <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
             <span class="img"><img src="{{ site.url }}/images/products/{{ post.image }}-small.png"></span>
