@@ -1,0 +1,15 @@
+---
+layout: news
+body_style: page
+category: news
+type-en: enterprise-news
+permalink: /enterprise-news/
+title: 企业新闻
+keywords: 封箱机
+description: 天键包装致力于创新研发封箱机、打包机、收缩机、缠绕机等自动化包装设备，这里为你展示我司最新的企业动态。
+---
+<div class="center_content" id="newslist">
+  <ul>{% for post in site.categories["news"] %}{% if post.type-en == page.type-en %}
+    <li><em>{{ post.date | date:'%Y-%m-%d' }}</em><span class="hide_if_mobile">〔{{ post.type }}〕</span><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
+  </ul>
+</div>

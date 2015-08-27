@@ -1,0 +1,15 @@
+---
+layout: pages
+---
+<article>
+  <div class="page_nav">
+    <ul>
+      <li class="{% if page.type-en == 'news' %}active{% endif %}"><a href="{{ site.url }}/news/">全部新闻</a></li>
+      <li class="{% if page.type-en == 'enterprise-news' %}active{% endif %}"><a href="{{ site.url }}/enterprise-news/">企业新闻</a></li>
+      <li class="{% if page.type-en == 'industry-news' %}active{% endif %}"><a href="{{ site.url }}/industry-news/">行业新闻</a></li>
+      <li class="dropdown"><a href="#"><span class="triangle down"></span></a></li>
+    </ul>
+  </div>
+  {{ content }}
+  <div class="block h50px"></div>
+</article>
