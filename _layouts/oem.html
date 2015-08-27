@@ -1,0 +1,15 @@
+---
+layout: pages
+---
+<article>
+  <div class="page_nav">
+    <ul>
+      <li class="{% if page.type-en == 'supporting' %}active{% endif %}"><a href="{{ site.url }}/supporting/">行业配套</a></li>
+      <li class="{% if page.type-en == 'process' %}active{% endif %}"><a href="{{ site.url }}/process/">业务流程</a></li>
+      <li class="{% if page.type-en == 'customer' %}active{% endif %}"><a href="{{ site.url }}/customer/">成功案例</a></li>
+      <li class="dropdown"><a href="#"><span class="triangle down"></span></a></li>
+    </ul>
+  </div>
+  {{ content }}
+  <div class="block h50px"></div>
+</article>

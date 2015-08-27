@@ -1,0 +1,16 @@
+---
+layout: pages-type
+---
+<article>
+  <div class="page_nav">
+    <ul>
+      <li class="{% if page.type-en == 'about' %}active{% endif %}"><a href="{{ site.url }}/about/">公司简介</a></li>
+      <li class="{% if page.type-en == 'culture' %}active{% endif %}"><a href="{{ site.url }}/culture/">安谷文化</a></li>
+      <li class="{% if page.type-en == 'development' %}active{% endif %}"><a href="{{ site.url }}/development/">研发生产力</a></li>
+      <li class="{% if page.type-en == 'honors' %}active{% endif %}"><a href="{{ site.url }}/honors/">安谷荣誉</a></li>
+      <li class="dropdown"><a href="#"><span class="triangle down"></span></a></li>
+    </ul>
+  </div>
+  {{ content }}
+  <div class="block h50px"></div>
+</article>
