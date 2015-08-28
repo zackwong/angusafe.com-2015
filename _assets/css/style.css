@@ -117,6 +117,9 @@ table {
 .banner-news {
 	background:url(/images/pages/news.jpg) no-repeat center
 }
+.banner-oem {
+	background:url(/images/pages/oem.jpg) no-repeat center
+}
 .banner-contact {
 	background:url(/images/pages/contact.jpg) no-repeat center
 }
