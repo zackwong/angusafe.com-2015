@@ -1,5 +1,6 @@
 //= require jquery-1.10.2.min.js
 //= require billboard.js
+//= require cases.js
 //= require contact.js
 //= require fastclick.min.js
 //= require finder.js
