@@ -20,7 +20,7 @@ jQuery(function($) {
   $("#casesz .case_item").each(function(a, b) {
     return $(b).magnificPopup({
       items: {
-        src: '<div style="text-align: center;"><iframe class="vid" height=400 width=720 src="' + $(b).find('a').data('iframe') + '" frameborder=0 allowfullscreen></iframe></div>'
+        src: '<div style="text-align: center;"><iframe class="vid" height=150 width=252 src="' + $(b).find('a').data('iframe') + '" frameborder=0 allowfullscreen></iframe></div>'
       },
       type: "inline"
     });
