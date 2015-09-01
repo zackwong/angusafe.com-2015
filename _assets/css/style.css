@@ -699,7 +699,7 @@ footer .left {
 footer .right {
 	float:right;
 	padding:10px 10px 0 0;
-	width:250px;
+	width:290px;
 	line-height:30px
 }
 footer .clear {
@@ -716,32 +716,32 @@ footer .clear {
 	text-align:left
 }
 .lang-cn {
-	background-position:-175px 0px;
+	background-position:-218px 0px;
 	width:42px;
 	height:32px
 }
 .lang-en {
-	background-position:-136px 0px;
+	background-position:-177px 0px;
 	width:42px;
 	height:32px
 }
 .lang-alibaba {
-	background-position:0 0;
+	background-position:-41px 0px;
 	width:50px;
 	height:32px
 }
 .lang-weixin {
-	background-position:-92px 0px;
+	background-position:-132px 0px;
 	width:45px;
 	height:32px
 }
 .lang-weibo {
-	background-position:50px 0px;
+	background-position:5px 0px;
 	width:45px;
 	height:32px
 }
 .lang-jd {
-	background-position:-52px 0px;
+	background-position:-93px 0px;
 	width:42px;
 	height:32px
 }
