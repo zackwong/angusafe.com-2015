@@ -111,8 +111,14 @@ table {
 .banner-honors {
 	background:url(/images/pages/honors.jpg) no-repeat center
 }
-.banner-brand {
-	background:url(/images/pages/brand.jpg) no-repeat center
+.banner-angusafe {
+	background:url(/images/pages/angusafe.jpg) no-repeat center
+}
+.banner-mmmsafe {
+	background:url(/images/pages/mmmsafe.jpg) no-repeat center
+}
+.banner-english {
+	background:url(/images/pages/english.jpg) no-repeat center
 }
 .banner-news {
 	background:url(/images/pages/news.jpg) no-repeat center
