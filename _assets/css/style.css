@@ -2763,9 +2763,10 @@ table#compare_table {
 	margin:30px 0 30px
 }
 table#compare_table td:nth-of-type(1):before {
-	content:"参数"
+	content:"行业案例"
 }
-}@media only screen and (min-width:340px) and (max-width:640px) {
+}
+@media only screen and (min-width:340px) and (max-width:640px) {
 	#promo ul {
 	display:block;
 	overflow:auto
