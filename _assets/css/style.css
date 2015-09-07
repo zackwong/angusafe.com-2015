@@ -2742,7 +2742,7 @@ footer .beian {
 	border:1px solid #ccc
 }
 table#manuals td:nth-of-type(1):before {
-	content:"产品类型"
+	content:"名称"
 }
 table#manuals td:nth-of-type(2):before {
 	content:"适用产品型号"
