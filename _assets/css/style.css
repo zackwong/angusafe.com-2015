@@ -183,6 +183,10 @@ table {
 	top:50px;
 	opacity:0
 }
+#billboard .bb .image1 {
+	position:absolute;
+	opacity:0
+}
 #billboard .active {
 	display:block
 }
