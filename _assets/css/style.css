@@ -140,7 +140,7 @@ table {
 	position:relative;
 	overflow:hidden
 }
-#billboard .top {
+#billboard .bb .top {
 	position: static !important;
     width: 100% !important;
 }
