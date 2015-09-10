@@ -140,6 +140,10 @@ table {
 	position:relative;
 	overflow:hidden
 }
+#billboard .top {
+	position: static !important;
+    width: 100% !important;
+}
 #billboard .bb {
 	position:absolute;
 	top:0;
@@ -181,10 +185,6 @@ table {
 	position:absolute;
 	right:-30px;
 	top:50px;
-	opacity:0
-}
-#billboard .bb .image1 {
-	position:absolute;
 	opacity:0
 }
 #billboard .active {
