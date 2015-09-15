@@ -2,38 +2,41 @@
 layout: default
 full_title: 安谷保险柜官网-保险柜
 ---
-<article id="billboard">
-  <div class="bb active">
-    <div class="link"><a href="{{ site.url }}/products/">安谷保险柜产品库</a></div>
+    <article class="not_top" id="billboard">
+  <div class="bb top active">
     <div class="title"></div>
     <div class="subtitle"></div>
-    <div class="image" style="right:0px;top:0px;"><img src="{{ site.url }}/images/home/products.jpg"></div>
+    <div class="image top">
+      <img data-desktop="{{ site.url }}/images/home/billboard-1.jpg" data-mobile="{{ site.url }}/images/home/billboard-1.jpg">
+    </div>
   </div>
-  <div class="bb">
-    <div class="link"><a href="{{ site.url }}/products/tm-8046s.html">真猛犸TM-8046S</a></div>
-    <div class="title"><img src="{{ site.url }}/images/home/jybxg.png"></div>
-    <div class="subtitle"><img src="{{ site.url }}/images/home/subtitle.png"></div>
-    <div class="image"><img src="{{ site.url }}/images/home/tm-8046s.jpg"></div>
+  <div class="bb top">
+    <div class="title"></div>
+    <div class="subtitle"></div>
+    <div class="image top">
+      <img data-desktop="{{ site.url }}/images/home/billboard-1.jpg" data-mobile="{{ site.url }}/images/home/billboard-1.jpg">
+    </div>
   </div>
-  <div class="bb">
-    <div class="link"><a href="{{ site.url }}/products/fh-2014e.html">FH-2014E</a></div>
-    <div class="title"><img src="{{ site.url }}/images/home/sybxg.png"></div>
-    <div class="subtitle"><img src="{{ site.url }}/images/home/subtitle2.png"></div>
-    <div class="image"><img src="{{ site.url }}/images/home/fh-2014e.jpg"></div>
+  <div class="bb top">
+    <div class="title"></div>
+    <div class="subtitle"></div>
+    <div class="image top">
+       <img data-desktop="{{ site.url }}/images/home/billboard-1.jpg" data-mobile="{{ site.url }}/images/home/billboard-1.jpg">
+    </div>
   </div>
-  <div class="bb">
-    <div class="link"><a href="{{ site.url }}/products/fbs-6755e.html">FBS-6755E</a></div>
-    <div class="title"><img src="{{ site.url }}/images/home/fhfdbxg.png"></div>
-    <div class="subtitle"><img src="{{ site.url }}/images/home/subtitle.png"></div>
-    <div class="image"><img src="{{ site.url }}/images/home/fbs-6755e.jpg"></div>
-  </div>
-  <div class="bb">
-    <div class="link"><a href="{{ site.url }}/products/tm-6042.html">真猛犸TM-6042</a></div>
-    <div class="title"><img src="{{ site.url }}/images/home/jybxx.png"></div>
-    <div class="subtitle"><img src="{{ site.url }}/images/home/subtitle.png"></div>
-    <div class="image"><img src="{{ site.url }}/images/home/tm-6042.jpg"></div>
+  <div class="bb top">
+    <div class="title"></div>
+    <div class="subtitle"></div>
+    <div class="image top">
+       <img data-desktop="{{ site.url }}/images/home/billboard-1.jpg" data-mobile="{{ site.url }}/images/home/billboard-1.jpg">
+    </div>
   </div>
 </article>
+<script>
+  $('#billboard img').attr('src', function(index, attr){
+    return $(this).data( $(window).width() <= 480 ? 'mobile' : 'desktop' );
+  });
+</script>
 <div id="promo">
   <ul>
     <li><a class="promo_01" href="{{ site.url }}/about/" title="公司实力"></a></li>
