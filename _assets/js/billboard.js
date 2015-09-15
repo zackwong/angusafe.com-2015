@@ -34,6 +34,7 @@ jQuery(function($) {
         }).animate({
           opacity: 1
         }, 200, function() {
+          $('#billboard.not_top').removeClass('not_top').addClass('top');
           return setTimeout(function() {
             return $('.title', active).animate({
               opacity: 0
@@ -68,6 +69,7 @@ jQuery(function($) {
         right: "+=50",
         opacity: 1
       }, 200, function() {
+        $('#billboard.not_top').removeClass('not_top').addClass('top');
         return $('.title', active).animate({
           left: "-=50",
           opacity: 1
@@ -101,5 +103,5 @@ jQuery(function($) {
       });
     }
   };
-  return setTimeout(loopslider, 500);
+  return loopslider();
 });

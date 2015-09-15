@@ -135,155 +135,189 @@ table {
 .banner-support {
 	background:url(/images/pages/support.jpg) no-repeat center
 }
+.top {
+  height: auto !important;
+}
+
 #billboard {
-	height:450px;
-	position:relative;
-	overflow:hidden
+  height: 540px;
+  position: relative;
+  overflow: hidden;
 }
+
+#billboard .top {
+  position: static !important;
+  width: 100% !important;
+}
+
 #billboard .bb {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:450px;
-	display:none
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 540px;
+  display: none;
 }
+
 #billboard .bb .link a {
-	display:block;
-	position:absolute;
-	z-index:3;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	outline:none;
-	overflow:hidden;
-	text-indent:-9999px
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  outline: none;
+  overflow: hidden;
+  text-indent: -9999px;
 }
+
 #billboard .bb .one {
-	top:150px !important
+  top: 150px !important;
 }
+
+#billboard .bb .top img {
+  width: 100% !important;
+}
+
 #billboard .bb .title {
-	position:absolute;
-	left:80px;
-	top:75px;
-	opacity:0;
-	z-index:1
+  position: absolute;
+  left: 80px;
+  top: 75px;
+  opacity: 0;
 }
+
 #billboard .bb .subtitle {
-	position:absolute;
-	left:80px;
-	top:275px;
-	opacity:0;
-	z-index:1
+  position: absolute;
+  left: 80px;
+  top: 275px;
+  opacity: 0;
 }
+
 #billboard .bb .image {
-	position:absolute;
-	right:-30px;
-	top:50px;
-	opacity:0
+  position: absolute;
+  right: -30px;
+  top: 50px;
+  opacity: 0;
 }
+
 #billboard .active {
-	display:block
+  display: block;
 }
+
 #billboard .bb-l2r {
-	height:540px;
-	position:relative
+  height: 540px;
+  position: relative;
 }
+
 #billboard .bb-l2r .link a {
-	display:block;
-	position:absolute;
-	z-index:3;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	outline:none;
-	overflow:hidden;
-	text-indent:-9999px
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  outline: none;
+  overflow: hidden;
+  text-indent: -9999px;
 }
+
 #billboard .bb-l2r .title {
-	position:absolute;
-	left:680px;
-	top:75px
+  position: absolute;
+  left: 680px;
+  top: 75px;
 }
+
 #billboard .bb-l2r .subtitle {
-	position:absolute;
-	left:680px;
-	top:275px
+  position: absolute;
+  left: 680px;
+  top: 275px;
 }
+
 #billboard .bb-l2r .image {
-	position:absolute;
-	left:15px;
-	top:30px
+  position: absolute;
+  left: 15px;
+  top: 30px;
 }
+
 .cc {
-	height:500px;
-	position:relative
+  height: 500px;
+  position: relative;
 }
+
 .cc .title {
-	position:absolute;
-	z-index:1;
-	opacity:0;
-	left:70px;
-	top:50px
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  left: 70px;
+  top: 130px;
 }
+
 .cc .image {
-	position:absolute;
-	opacity:0;
-	right:20px;
-	top:50px
+  position: absolute;
+  opacity: 0;
+  right: 20px;
+  top: 50px;
 }
+
 .cc .hover {
-	position:absolute;
-	z-index:1;
-	right:0px;
-	top:0px
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 0px;
 }
+
 .cc-l2r {
-	height:399px;
-	position:relative
+  height: 399px;
+  position: relative;
 }
+
 .cc-l2r .title {
-	position:absolute;
-	z-index:1;
-	right:20px;
-	top:150px
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  top: 150px;
 }
+
 .cc-l2r .image {
-	position:absolute;
-	left:0px;
-	top:0px
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
+
 .cc-r2l {
-	height:399px;
-	position:relative
+  height: 399px;
+  position: relative;
 }
+
 .cc-r2l .title {
-	position:absolute;
-	z-index:1;
-	left:20px;
-	top:150px
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  top: 150px;
 }
+
 .cc-r2l .image {
-	position:absolute;
-	right:0px;
-	top:0px
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
+
 .height_300 {
-	height:300px
+  height: 300px;
 }
+
 .height_300 .title {
-	top:100px
+  top: 100px;
 }
-.height_600 {
-	height:600px
-}
+
 .height_700 {
-	height:700px
+  height: 700px;
 }
+
 .height_700 .title {
-	top:250px
+  top: 250px;
 }
 .isotope-item {
 	z-index:2
@@ -2893,22 +2927,28 @@ ul.nav li:last-child {
 	text-align:center
 }
 #billboard {
-	height:520px
+  height: 180px;
 }
+
 #billboard .bb {
-	height:520px
+  height: 180px;
 }
+
 #billboard .bb .title {
-	top:18px !important
+  top: 18px !important;
 }
+
 #billboard .bb .subtitle {
-	display:none
+  display: none;
 }
+
 #billboard .bb .image {
-	top:170px
+  top: 170px;
+  width: 100%;
 }
+
 #billboard .bb .image img {
-	width:280px
+  width: 100%;
 }
 .banner {
 	visibility:hidden;
