@@ -2258,7 +2258,7 @@ a.btn {
 	text-decoration:none
 }
 #promo {
-	max-width:1280px;
+	max-width:1004px;
 	margin:0 auto
 }
 #promo ul {
@@ -2275,7 +2275,7 @@ a.btn {
 #promo ul li a {
 	display:block;
 	width:100%;
-	height:200px
+	height:157px
 }
 .promo_01 {
 	background:url(/images/home/about.jpg) no-repeat center
