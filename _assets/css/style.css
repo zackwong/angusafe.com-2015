@@ -2638,6 +2638,11 @@ ul#honors li b {
 	left:0;
 	right:0
 }
+.waiguo {
+    position:fixed;
+    top:116px;
+    right:0px;
+}
 #toTop {
 	display:none;
 	text-decoration:none;
