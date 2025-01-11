@@ -45,11 +45,3 @@ full_title: 安谷保险柜官网-猛犸保险柜,保险柜,家用保险柜,保�
     <li><a class="promo_04" href="{{ site.url }}/service/" title="服务支持"></a></li>
   </ul>
 </div>
-<div class="wide sliderkit newslider-minimal" id="newsslider">
-  <div class="left"><a href="{{ site.url }}/news/">新闻中心</a></div>
-  <div class="sliderkit-panels">
-    {% for post in site.categories["news"] %}
-    <div class="sliderkit-panel">〔{{ post.type }}〕<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span class="date">{{ post.date | date:"%Y年%m月%d日" }}</span></div>
-    {% endfor %}
-  </div>
-</div>
