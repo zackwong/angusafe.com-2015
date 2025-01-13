@@ -642,7 +642,7 @@ html {
 body {
 	background:#fff;
 	min-height:100%;
-	font-family:Lobster,Arial,sans-serif
+	font-family:'Noto Sans',sans-serif;
 }
 body.page {
 	max-width:1030px;
@@ -1138,7 +1138,7 @@ button::-moz-focus-inner {
 	color:white;
 	font-style:normal;
 	font-size:28px;
-	font-family:Arial,Baskerville,monospace
+	font-family:'Noto Sans',sans-serif;
 }
 .mfp-close:hover,.mfp-close:focus {
 	opacity:1
